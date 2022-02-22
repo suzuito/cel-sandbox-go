@@ -1,0 +1,9 @@
+syntax = "proto3";
+package cel_sandbox;
+
+option go_package = "github.com/suzuito/cel-sandbox-go/internal/basic/pb";
+
+message Permission {
+    string name = 1;
+    string resource = 2;
+}
